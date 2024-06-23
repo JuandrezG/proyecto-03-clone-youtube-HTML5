@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- Cambio de lenguaje -->
+<html lang="en">
+    <!-- Este código HTML define el encabezado de una página web que se utilizará para practicar HTML y crear una página similar a YouTube. Incluye metadatos como la codificación de caracteres, la configuración de viewport y una breve descripción del contenido de la página. Además, establece el título de la página como "Youtube". -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina youtube practica html">
+    <title>Youtube</title>
+</head>
+<body>
+    
+    <!-- Este es el encabezado de la página web que contiene la barra de navegación. Dentro de la barra de navegación, hay un menú desplegable representado por un icono de menú, seguido del logo de YouTube. Luego, hay un formulario de búsqueda que redirige a los resultados de búsqueda de YouTube al hacer clic en el botón "Buscar". -->
+<header>
+    <nav>
+       <img src="imgs/icon_menu.png" alt="iconoMenu">
+       <img width="300px" height="150px" src="imgs/logo_youtube.png" alt="Logo Youtube">
+        <form action="https://www.youtube.com/results" method="get" target="_blank">
+            <input type="text" id="search" name="search_query">
+            <button type="submit">Buscar</button>
+        </form>
+        <img width="15px" height="15px" src="imgs/icon_camara.png" alt="iconCamara">
+        <img width="15px" height="15px" src="imgs/icon_opciones.png" alt="iconopciones">
+        <img width="15px" height="15px" src="imgs/icon_notification.png" alt="iconnotificaciones">
+        <img width="15px" height="15px" src="imgs/icon_user.png" alt="iconusuario">
+    </nav>
+</header>
+
+<main>
+    <iframe src="https://www.youtube.com/embed/c2EJRboAYL4?si=hrqDYVny_oCuuFp7" frameborder="1"></iframe>
+    <div>
+        <h1>Mirá esto ANTES de aprender a PROGRAMAR.</h1>
+        <h2>Descripción</h2>
+        <p>Hay muchos videos mostrando lo bueno de ser programador. Que uno gana bien, que trabaja desde casa y bla-bla. Esta tendencia parece esconder lo "malo" de ser programador; o más bien las dificultades y particularidades de trabajar en este rubro.
+            En este videito de mierda te intento dar tres adelantos de lo que es la vida de un programador. Los puntos principales son:
+            1. Para aprender a programar hay que acostumbrarse a lidiar con la incertidumbre. Es una frase que me encanta mencionar siempre que me piden consejos para iniciarse en la programación, y la voy a seguir diciendo porque es importante: en programación nadie sabe todo, nadie te va a enseñar todo lo que necesitás para ser programador. Siempre vas a estar aprendiendo.
+            2. Programar es resolver problemas. Parecido a lo anterior: programar no es escribir código. Obviamente vas a escribir código, pero lo importante es que el código es simplemente la objetivación, el último paso en algo más importante que es solucionar problemas. Esta mentalidad te va a ayudar a tener el mindset correcto, y pensar primero y principal en qué problema estás tratando de resolver.
+            3. El dinero no es una excusa suficiente. Por más que sea una carrera lucrativa, programar no es ni por asomo una salida rápida para hacer millones. No me malinterpretes: podés ganar bien siendo programador, pero no es algo que digas "trabajo un par de años y me lleno de guita". O como digo en el video: es un compromiso de largo plazo. Así que considerá que si programar te disgusta, te frustra y lo estás haciendo solamente para ganar plata, en unos años le vas a perder el gusto y ahí viene el burnout.
+            Más allá de todo esto, te doy la bienvenida a la industria, chau.
+        </p>
+    </div>
+    
+    <!-- Muestra una lista de comentarios realizados por usuarios, cada uno con su nombre, fecha y texto del comentario. -->
+    <section>
+        <h3>Comentarios</h3>
+        <article>
+            <strong>Usuario1</strong> <time datetime="2024-06-10">10 de junio de 2024</time>
+            <p>comentario realizado por el Usuario1.</p>
+        </article>
+        <article>
+            <strong>Usuario2</strong> <time datetime="2024-06-11">11 de junio de 2024</time>
+            <p>comentario realizado por el Usuario2.</p>
+        </article>
+        <article>
+            <strong>Usuario3</strong> <time datetime="2024-06-12">12 de junio de 2024</time>
+            <p>comentario realizado por el Usuario3.</p>
+        </article>
+    </section>
+    
+    <!-- Sección lateral que me muestra una lista de videos recomendados. seguida del título del video y el nombre del canal. -->
+    <aside>
+        <h3>Videos Recomendados</h3>
+        <section>
+            <img src="imgs/miniatura1.png" alt="Miniatura del video 1">
+            <h4>Título del Video 1</h4>
+            <p>Canal 1</p>
+        </section>
+        <section>
+            <img src="imgs/miniatura2.png" alt="Miniatura del video 2">
+            <h4>Título del Video 2</h4>
+            <p>Canal 2</p>
+        </section>
+        <section>
+            <img src="imgs/miniatura3.png" alt="Miniatura del video 3">
+            <h4>Título del Video 3</h4>
+            <p>Canal 3</p>
+        </section>
+        <section>
+            <img src="imgs/miniatura4.png" alt="Miniatura del video 4">
+            <h4>Título del Video 4</h4>
+            <p>Canal 4</p>
+        </section>
+        <section>
+            <img src="imgs/miniatura5.png" alt="Miniatura del video 5">
+            <h4>Título del Video 5</h4>
+            <p>Canal 5</p>
+        </section>
+    </aside>
+</main>
+<!-- Pie de página. -->
+<footer>
+    <p>&copy; 2024 Ejemplo de Página con Video. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
